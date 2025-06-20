@@ -1,0 +1,21 @@
+# Ignorar ambiente virtual (não deve ir para o repositório)
+venv/
+
+# Arquivos de cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos temporários ou de backup
+*.log
+*.bak
+*.swp
+*.tmp
+
+# Resultados de inferência (opcional — só se puder ser gerado novamente)
+resultados/*
+!resultados/.gitkeep
+
+# Sistema do VSCode
+.vscode/
