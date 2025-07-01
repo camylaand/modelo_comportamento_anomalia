@@ -1,10 +1,10 @@
-# 🛡️ Projeto: Mapeamento de Comportamento e Detecção de Anomalias em Transações
+# Projeto: Mapeamento de Comportamento e Detecção de Anomalias em Transações
 
 Este projeto tem como objetivo identificar comportamentos transacionais suspeitos em contas bancárias, por meio de aprendizado não supervisionado (Autoencoder + KMeans) e classificação supervisionada (XGBoost). O pipeline permite mapear o comportamento padrão de cada conta, detectar desvios e gerar alertas operacionais.
 
 ---
 
-## ⚙️ Etapas Desenvolvidas – Mapeamento Comportamental
+## Etapas Desenvolvidas – Mapeamento Comportamental
 
 ### 1. Pré-processamento e Enriquecimento dos Dados
 - Enriquecimento com variáveis temporais derivadas da data:
@@ -52,7 +52,7 @@ Esses perfis permitem:
 
 ---
 
-## 🧠 Etapas Desenvolvidas – Detecção Supervisionada (Anomalias)
+## Etapas Desenvolvidas – Detecção Supervisionada (Anomalias)
 
 ### 1. Construção do Rótulo `anomalia_confirmada`
 Como a base não tinha rótulos, foi criado um rótulo sintético com base em:
@@ -90,7 +90,7 @@ Transações com **pontuação ≥ 3** foram marcadas como `anomalia_confirmada 
 
 ---
 
-## 🧾 Interpretação dos Resultados
+## Interpretação dos Resultados
 
 - Thresholds baixos (ex: 0.40) → maior sensibilidade, mais alertas falsos.
 - Thresholds altos (ex: 0.70) → menos falsos positivos, mas mais anomalias passam despercebidas.
@@ -101,7 +101,7 @@ Transações com **pontuação ≥ 3** foram marcadas como `anomalia_confirmada 
 
 ---
 
-## 🚀 Conclusão
+## Conclusão
 
 O sistema desenvolvido é capaz de:
 - Mapear o comportamento padrão de cada conta
