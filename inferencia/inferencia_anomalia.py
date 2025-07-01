@@ -6,7 +6,6 @@ from tensorflow.keras.models import load_model
 import os
 from sklearn.metrics.pairwise import euclidean_distances
 import warnings
-from inferencia_comportamento import carregar_modelos, preprocessar_transacoes
 
 warnings.filterwarnings("ignore", category=UserWarning, module='xgboost')
 

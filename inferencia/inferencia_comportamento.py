@@ -2,8 +2,8 @@
 import pandas as pd
 import numpy as np
 import joblib
-from tensorflow.keras.models import load_model
 import os
+from tensorflow.keras.models import load_model
 
 # Função que carrega todos os modelos e transformações já treinados
 def carregar_modelos():
